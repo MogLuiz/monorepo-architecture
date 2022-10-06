@@ -12,6 +12,8 @@
   },
   "scripts": {
     "web-public": "yarn workspace @monorepo/web-public",
-    "dev:web-public": "yarn web-public dev"
+    "dev:web-public": "yarn web-public dev",
+    "build:web-public": "yarn web-public build",
+    "start:web-public": "yarn web-public start"
   }
 }
