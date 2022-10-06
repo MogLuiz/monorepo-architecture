@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "alura",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -13,8 +13,12 @@
   "scripts": {
     "web-public": "yarn workspace @monorepo/web-public",
     "dev:web-public": "yarn web-public dev",
-    "build:web-public": "yarn web-public build",
-    "start:web-public": "yarn web-public start",
-    "design-system": "yarn workspace @monorepo/design-system"
+    "build:web-public": "yarn web-public build"
+  },
+  "devDependencies": {
+    "@types/styled-components": "5.1.25",
+    "@types/node": "^17.0.30",
+    "@types/react": "^18.0.8",
+    "typescript": "^4.6.4"
   }
 }

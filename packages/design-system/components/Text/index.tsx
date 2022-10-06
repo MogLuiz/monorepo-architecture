@@ -1,16 +1,17 @@
 import React from "react";
 
-import { THtmlTags } from "./types";
+import { THtmlTag } from "./types";
 
 import * as S from "./styles";
 
-type TTextComponentProps = {
-  tag: THtmlTags;
+interface TextProps {
+  tag: THtmlTag;
   children: React.ReactNode;
-};
-
-export const TextComponent = ({ tag, children, ...rest }: TTextComponentProps) => (
-  <S.Text as={tag} {...rest}>
-    {children}
-  </S.Text>
-);
+}
+export function Text({ tag, children, ...props }: TextProps) {
+  return (
+    <S.Text as={tag} {...props}>
+      {children}
+    </S.Text>
+  );
+}

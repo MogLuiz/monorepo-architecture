@@ -1,12 +1,9 @@
 {
   "name": "@monorepo/design-system",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "index.ts",
   "dependencies": {
-    "styled-components": "^5.3.6"
-  },
-  "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "styled-components": "5.3.5",
+    "@monorepo/utils": "*"
   }
 }
