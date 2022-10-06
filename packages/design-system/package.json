@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "styled-components": "5.3.5",
-    "@monorepo/utils": "*"
+    "styled-components": "5.3.5"
+  },
+  "devDependencies": {
+    "@monorepo/tsconfig-commons": "*"
   }
 }
