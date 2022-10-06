@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@monorepo/design-system": "*",
+    "@monorepo/tsconfig-commons": "*",
     "@monorepo/utils": "*",
     "next": "^12.1.5",
     "react": "^18.1.0",
