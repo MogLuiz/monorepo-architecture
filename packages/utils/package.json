@@ -2,5 +2,8 @@
   "name": "@monorepo/utils",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@monorepo/tsconfig-commons": "*"
+  }
 }
