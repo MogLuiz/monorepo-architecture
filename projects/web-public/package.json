@@ -13,6 +13,7 @@
     "@monorepo/design-system": "*",
     "@monorepo/tsconfig-commons": "*",
     "@monorepo/utils": "*",
+    "@monorepo/eslint-commons": "*",
     "styled-components": "5.3.5",
     "next": "^12.1.5",
     "react": "^18.1.0",
