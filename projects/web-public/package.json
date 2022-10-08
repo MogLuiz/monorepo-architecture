@@ -6,12 +6,14 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@monorepo/design-system": "*",
     "@monorepo/tsconfig-commons": "*",
     "@monorepo/utils": "*",
+    "styled-components": "5.3.5",
     "next": "^12.1.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
