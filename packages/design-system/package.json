@@ -2,10 +2,14 @@
   "name": "@monorepo/design-system",
   "version": "1.0.0",
   "main": "index.ts",
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
   "dependencies": {
     "styled-components": "5.3.5"
   },
   "devDependencies": {
-    "@monorepo/tsconfig-commons": "*"
+    "@monorepo/tsconfig-commons": "*",
+    "@monorepo/eslint-commons": "*"
   }
 }
