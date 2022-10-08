@@ -15,7 +15,9 @@
     "web-public": "yarn workspace @monorepo/web-public",
     "dev:web-public": "yarn web-public dev",
     "lint:web-public": "yarn web-public lint",
-    "build:web-public": "yarn web-public build"
+    "build:web-public": "yarn web-public build",
+    "utils": "yarn workspace @monorepo/utils",
+    "test:utils": "yarn utils test"
   },
   "devDependencies": {
     "eslint": "8.14.0",
