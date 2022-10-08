@@ -5,5 +5,11 @@
   "license": "MIT",
   "files": [
     "base.js"
-  ]
+  ],
+  "dependencies": {
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.4"
+  }
 }
