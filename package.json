@@ -11,7 +11,7 @@
     ]
   },
   "scripts": {
-    "lint": "yarn workspace run lint",
+    "lint": "yarn workspaces run lint",
     "web-public": "yarn workspace @monorepo/web-public",
     "dev:web-public": "yarn web-public dev",
     "lint:web-public": "yarn web-public lint",
