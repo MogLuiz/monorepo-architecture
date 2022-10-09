@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> ensure render Text correctly 1`] = `
+<div>
+  <h1
+    class="styles__Text-sc-sbvfhc-0 ntJIa"
+  >
+    Sample text
+  </h1>
+</div>
+`;

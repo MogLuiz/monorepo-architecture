@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "lint": "eslint './**/*.{ts,tsx}'"
+    "lint": "eslint './**/*.{ts,tsx}'",
+    "test": "jest"
   },
   "dependencies": {
     "styled-components": "5.3.5"
