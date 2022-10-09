@@ -15,6 +15,7 @@
     "web-public": "yarn workspace @monorepo/web-public",
     "dev:web-public": "yarn web-public dev",
     "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test",
     "build:web-public": "yarn web-public build",
     "design-system": "yarn workspace @monorepo/design-system",
     "test:design-system": "yarn design-system test",
