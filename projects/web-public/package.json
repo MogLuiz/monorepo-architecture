@@ -7,13 +7,15 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint './**/*.{ts,tsx}'"
+    "lint": "eslint './**/*.{ts,tsx}'",
+    "test": "jest"
   },
   "dependencies": {
     "@monorepo/design-system": "*",
     "@monorepo/tsconfig-commons": "*",
     "@monorepo/utils": "*",
     "@monorepo/eslint-commons": "*",
+    "@monorepo/test-commons": "*",
     "styled-components": "5.3.5",
     "next": "^12.1.5",
     "react": "^18.1.0",
