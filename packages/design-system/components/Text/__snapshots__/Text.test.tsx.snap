@@ -1,9 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Text /> ensure render Text correctly 1`] = `
+.c0 {
+  font-family: sans-serif;
+}
+
 <div>
   <h1
-    class="styles__Text-sc-sbvfhc-0 ntJIa"
+    class="c0"
   >
     Sample text
   </h1>
